@@ -21,7 +21,7 @@ Quick Start
 
 1. Cloning the Repository
 
->git clone https://github.com/KypAnastasy/wes-tumor-pipeline.git
+>git clone https://github.com/KypAnastasy/Wes_Tumor_Only_Pipeline_Docker.git
 >cd wes-tumor-pipeline
 
 2. Building a Docker image
@@ -99,7 +99,7 @@ reports/patient_ID_variant_summary.txt – general statistics
 
 1. Клонирование репозитория
 
->git clone https://github.com/KypAnastasy/wes-tumor-pipeline.git
+>git clone https://github.com/KypAnastasy/Wes_Tumor_Only_Pipeline_Docker.git
 >cd wes-tumor-pipeline
 
 2. Создание образа Docker
