@@ -93,7 +93,7 @@ reports/patient_ID_variant_summary.txt – general statistics
 
 - Docker (версия 20.10+)
 - 50–100 ГБ свободного места (эталонные данные + результаты)
-- Доступ к интернету для загрузки эталонных данных и кэшей
+- Доступ к интернету для загрузки референсных данных и кэшей
 
 Быстрый старт
 
@@ -115,7 +115,7 @@ reports/patient_ID_variant_summary.txt – general statistics
 
 Настройки по умолчанию уже подходят для работы с смонтированными папками.
 
-4. Загрузка эталонных данных
+4. Загрузка референсных данных
 
 >mkdir -p reference_ngs
 >docker run -it --rm -v $(pwd)/reference_ngs:/data/reference_ngs wes-tumor-pipeline /usr/local/bin/download_references.sh
