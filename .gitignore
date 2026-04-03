@@ -1,0 +1,21 @@
+# Папки с данными
+reference_ngs/
+patients/
+vep_cache/
+temp/
+
+# Логи и временные файлы
+*.log
+*.fastq
+*.fastq.gz
+*.bam
+*.sam
+*.vcf
+*.vcf.gz
+*.idx
+*.tbi
+
+# Системные файлы
+.DS_Store
+*.swp
+*.swo
